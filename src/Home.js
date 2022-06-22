@@ -31,8 +31,6 @@ function Home({ navigation }) {
                 await AsyncStorage.setItem("nikhil", JSON.stringify(data1))
             }
 
-            // mark ?  mark.filter(id) : mark.push(id)
-
         }
 
         // selectFavorite=(index)=>{
