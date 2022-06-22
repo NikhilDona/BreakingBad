@@ -16,7 +16,6 @@ function Home({ navigation }) {
                     setPosts(resp)
                     await AsyncStorage.setItem("sharma", JSON.stringify(resp))
                 })
-            // console.warn(post)
         }, [])
 
         const display = async (id) => {
