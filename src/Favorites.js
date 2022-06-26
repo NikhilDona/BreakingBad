@@ -32,13 +32,12 @@ function Favorites() {
 
     }
 
-
     const filterData = post2?.filter((item) => mark2.includes(item.char_id))
 
     console.log("hieee", filterData)
 
     return (
-        <View style={{ flex: 1, backgroundColor: "black",paddingTop:10 }}>
+        <View style={{ flex: 1, backgroundColor: "black", paddingTop: 10 }}>
 
             <Text style={{ fontWeight: "bold", color: '#FFFF', fontSize: 25, marginTop: 5 }}>
                 Favorites
